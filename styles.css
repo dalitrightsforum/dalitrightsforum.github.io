@@ -1,0 +1,490 @@
+:root {
+  --big-chungus: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+}
+
+.header {
+  position: fixed;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+  justify-content: center;
+  z-index: index 100;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("./Assets/Gilroy Extra Bold/Reg.otf");
+}
+
+::selection {
+  color: white;
+  background: #4b88ac;
+}
+
+#icon {
+  color: #0f5e9c;
+  transition: 1s;
+}
+
+#icon:hover {
+  color: white;
+}
+
+#div2 {
+  height: 1000px;
+  background-color: white;
+  padding-top: 235px;
+  justify-content: center;
+  background-image: url("./Assets/Dalits.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  fill-opacity: 5%;
+}
+#div3 {
+  height: 1000px;
+  padding: 75px 50px 20px 50px;
+  background-color: white;
+  font-family: Gilroy;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+#div4 {
+  height: 1000px;
+  background-color: white;
+  padding-top: 100px;
+}
+#div5 {
+  height: 830px;
+  background-color: white;
+  padding-top: 75px;
+}
+#div6 {
+  padding-bottom: 10px;
+}
+
+#title {
+  user-select: none;
+  font-family: Gilroy;
+  color: #18185c;
+  font-size: 125px;
+  padding-left: 210px;
+  margin-top: 70px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  transition: 2s;
+  text-align: "center";
+}
+
+#title:hover {
+  color: #4b88ac;
+}
+
+#homeB {
+  text-decoration: none;
+  font-family: Gilroy;
+  color: #18185c;
+  font-size: 17.5px;
+  margin-right: 74%;
+  transition: 1s;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(100px);
+  z-index: 5;
+}
+
+#homeB:hover {
+  color: #4b88ac;
+  z-index: 5;
+}
+
+#statsB {
+  text-decoration: none;
+  font-family: Gilroy;
+  color: #18185c;
+  font-size: 17.5px;
+  margin-right: 1.5%;
+  transition: 1s;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  z-index: 5;
+}
+#statsB:hover {
+  color: #4b88ac;
+  z-index: 5;
+}
+#endB {
+  text-decoration: none;
+  font-family: Gilroy;
+  color: #18185c;
+  font-size: 17.5px;
+  margin-left: 1.5%;
+  transition: 1s;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  z-index: 5;
+}
+#endB:hover {
+  color: #4b88ac;
+  z-index: 5;
+}
+#aB {
+  text-decoration: none;
+  font-family: Gilroy;
+  font-size: 17.5px;
+  color: #18185c;
+  transition: 1s;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  z-index: 5;
+}
+#aB:hover {
+  color: #4b88ac;
+  z-index: 0;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #5abcd8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.stats {
+  color: #18185c;
+  text-align: center;
+  font-size: 50px;
+  font-family: Gilroy;
+  transition: 1s;
+}
+
+.stats:hover {
+  color: rgb(65, 133, 179);
+  text-shadow: 2px 2px 6px rgb(144, 159, 177);
+}
+
+.stats-container {
+  margin-top: 75px;
+  display: inline-block;
+  width: 300px;
+}
+
+.stats-description {
+  color: rgb(65, 133, 179);
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 15px;
+}
+
+.stats-desc-small {
+  color: white;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 30px;
+}
+
+#sc1 {
+  margin-left: 140px;
+}
+
+#sc2 {
+  margin-left: 140px;
+  width: 300px;
+}
+
+#sc3 {
+  margin-left: 110px;
+  padding: 0px;
+}
+
+#sc4 {
+  margin-left: 110px;
+}
+
+#sc5 {
+  margin-left: 140px;
+  width: 700px;
+}
+
+#sch5 {
+  font-size: 70px;
+  transition: 0.5s;
+}
+#sch4 {
+  transition: 0.5s;
+}
+#sch3 {
+  transition: 0.5s;
+}
+#sch2 {
+  transition: 0.5s;
+}
+#sch1 {
+  transition: 0.5s;
+}
+
+#sch5:hover {
+  font-size: 80px;
+}
+#sch4:hover {
+  font-size: 60px;
+}
+
+#sch3:hover {
+  font-size: 60px;
+}
+
+#sch2:hover {
+  font-size: 60px;
+}
+
+#sch1:hover {
+  font-size: 60px;
+}
+
+#scd5 {
+  font-size: 30px;
+}
+.left-column {
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  margin-left: 150px;
+  margin-top: 0;
+  vertical-align: top;
+}
+
+.right-column {
+  text-align: right;
+  display: inline-block;
+  width: 40%;
+}
+
+#pie-chart {
+  transition: 0.5s;
+}
+#pie-chart:hover {
+  transform: scale(1.1);
+}
+
+.citystats {
+  font-size: 50;
+  transition: 0.5s;
+}
+
+.citylist {
+  font-size: 30;
+  color: white;
+  text-align: center;
+  font-family: Gilroy;
+}
+
+.citystatlist {
+  font-size: 50;
+  color: #18185c;
+  text-align: center;
+  font-family: Gilroy;
+  transition: 0.5s;
+}
+
+.citystatlist:hover {
+  font-size: 60;
+  color: #0f5e9c;
+  text-shadow: 2px 2px 6px rgb(144, 159, 177);
+}
+
+.list-class {
+  font-family: Gilroy;
+  color: #0f5e9c;
+  font-size: 20px;
+  text-align: left;
+  line-height: 45px;
+}
+
+.list-class:hover {
+  text-shadow: 1px 1px 3px rgb(144, 159, 177);
+}
+#l1 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l1:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l2 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l2:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l3 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l3:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l4 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l4:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l5 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l5:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l6 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l6:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l7 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l7:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l8 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l8:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l9 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l9:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+#l10 {
+  transition: 0.5s;
+  color: #18185c;
+}
+#l10:hover {
+  font-size: 25px;
+  color: #0f5e9c;
+  list-style-type: disc;
+}
+.carousel .carousel-item {
+  height: 680px;
+  width: 100%;
+}
+
+.carousel-item img {
+  z-index: -1;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.stats-head {
+  font-family: Gilroy;
+  color: rgb(167, 220, 255);
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  transition: 0.5s;
+}
+
+.carouselHeads {
+  font-family: Gilroy;
+  font-size: var(--big-chungus);
+  border-radius: 25;
+  color: white;
+}
+ul.list-class {
+  list-style-type: circle;
+}
+
+#feedbackInput {
+  margin-left: 600px;
+  margin-bottom: 100px;
+  width: 300px;
+  background-color: white;
+  color: #18185c;
+}
+
+.mission {
+  font-size: 20px;
+  width: 1100px;
+  font-family: Gilroy;
+  color: rgb(167, 220, 255);
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 0;
+  padding-top: 0px;
+}
+
+#feedbackInput {
+  border: none;
+  outline: none;
+  font-family: Gilroy;
+  border-radius: 50px;
+  width: 500px;
+  margin-left: 450px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 15px;
+}
